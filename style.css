@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prosto+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.navbar {
+  background: #282828;
+  height: 65px;
+}
+
+.nav_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+.nav_left {
+  display: flex;
+  gap: 30px;
+}
+
+.nav_link {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #ffffff;
+}
+
+.nav_right {
+  display: flex;
+  gap: 25px;
+}
+
+.hero {
+  height: 635px;
+  background: url(./imgs/Header.png) center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero h1 {
+  font-family: Prosto One;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 75px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-bottom: 38px;
+}
+.hero button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  background: white;
+  color: black;
+}
+
+main {
+  background: #151515;
+}
+
+.one_content {
+  display: flex;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.one_left p {
+  margin-top: 33px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.two_content {
+  display: flex;
+  margin-top: 50px;
+  gap: 87px;
+}
+
+.two_right p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 150px;
+  color: white;
+}
+
+.three_content {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 16px;
+}
+
+.three_content p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.three_left p {
+  text-align: right;
+}
+
+.three_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.three_center .img {
+  display: flex;
+  align-items: center;
+}
+.three_center .img::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: #c4c4c4;
+}
+
+.three_center .img::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: #c4c4c4;
+}
+
+.four_content {
+  padding-bottom: 55px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.four_item {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.four_item h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.four_item p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: black;
+}
+.four_item button {
+  width: 161px;
+  height: 34px;
+  background: #151515;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.footer {
+  background: #282828;
+}
+
+.footer_content {
+  display: flex;
+  height: 215px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_right {
+  display: flex;
+  gap: 30px;
+}
+
+.f_list {
+  display: flex;
+  list-style: none;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  gap: 30px;
+  color: white;
+}
